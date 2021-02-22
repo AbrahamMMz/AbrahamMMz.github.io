@@ -1,0 +1,21 @@
+body{
+	background-color: rgba(50,50,50);
+    color: white;
+}
+hr {
+	background-color: rgba(207,207,207,1.00);
+	height: 1px;
+}
+
+meter {
+  
+  #margin: 0 auto 4.5em;
+  width: 200px;
+  height: 30px;
+  display: block;
+}
+#meterbackgroud{
+	background-color:rgba(50,50,50) ;
+	color:white;
+	text-decoration:none;
+}
