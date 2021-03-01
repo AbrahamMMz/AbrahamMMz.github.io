@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html >
+    <head>
+        
+        <title>BMI calculator</title>
+        <link type="text/css" rel="stylesheet" href="rules.css">
+        <script type="text/javascript" src="funciones.js">
+
+        </script>
+    </head>
+    <body>
+        <h1>Body Mass Index Calculator</h1>
+        <hr>
+        <br>
+        <form onsubmit = "return false" action="">
+            <label for="Height">Estatura (m):</label><br>
+			<input type="text" id="Height" \><br>
+            <label for="Weight">Peso (kg):</label><br>
+            <input type="text" id="Weight" \><br><br>
+			<input type="submit" onclick = "calcBMI()"\>
+		</form>
+        <br>
+        <div id="Res"></div>
+        <br>
+        <div id="comment"></div>
+        <br>
+        <!--<span class="dot"></span>-->
+    </body>
+</html>
+
+
